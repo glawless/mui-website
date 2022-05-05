@@ -16,12 +16,16 @@ import {
 const Rightbar = () => {
   return (
     <Box flex={2} padding={2} sx={{ display: { xs: "none", sm: "block" } }}>
-      <Box position="fixed" width={300}>
+      <Box position="sticky" width={300}>
         <Typography variant="h6" fontWeight={100}>
           Online Friends
         </Typography>
         <AvatarGroup spacing="small">
-          <Avatar sx={{ bgcolor: "azure" }} alt="Rex" src="/broken-image.jpg" />
+          <Avatar
+            sx={{ bgcolor: "burlywood" }}
+            alt="Rex"
+            src="/broken-image.jpg"
+          />
           <Avatar
             sx={{ bgcolor: "deepskyblue" }}
             alt="Troy"
@@ -33,12 +37,12 @@ const Rightbar = () => {
             src="/broken-image.jpg"
           />
           <Avatar
-            sx={{ bgcolor: "azure" }}
+            sx={{ bgcolor: "rebeccapurple" }}
             alt="Hank"
             src="/broken-image.jpg"
           />
           <Avatar
-            sx={{ bgcolor: "deepskyblue" }}
+            sx={{ bgcolor: "forestgreen" }}
             alt="Pickle"
             src="/broken-image.jpg"
           />
