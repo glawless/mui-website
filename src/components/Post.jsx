@@ -10,7 +10,7 @@ import {
   IconButton,
   Typography,
 } from "@mui/material";
-import { Favorite, FavoriteBorder, MoreVert, Share } from "@mui/icons-material";
+import { Favorite, FavoriteBorder, Share } from "@mui/icons-material";
 import pom1 from "../Images/pom.jpg";
 
 const Post = () => {
